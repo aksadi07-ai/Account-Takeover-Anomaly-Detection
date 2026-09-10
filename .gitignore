@@ -12,3 +12,5 @@ models/*.pt
 models/*.json
 reports/figures/*.png
 reports/*.csv
+!data/processed/session_features.csv
+!reports/combined_scores.csv
