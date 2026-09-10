@@ -1,0 +1,35 @@
+{
+  "feature_cols": [
+    "event_count",
+    "session_duration_sec",
+    "failed_logins",
+    "beneficiary_adds",
+    "password_changes",
+    "security_changes",
+    "device_registers",
+    "transfer_count",
+    "total_transfer_amount",
+    "max_transfer_amount",
+    "avg_transfer_amount",
+    "transaction_velocity_per_min",
+    "new_device",
+    "new_location",
+    "time_since_prev_session_hr",
+    "impossible_travel",
+    "amount_zscore",
+    "login_hour"
+  ],
+  "threshold_selected_on": "validation",
+  "threshold": 0.11367635569886725,
+  "metrics_on_held_out_test": {
+    "precision": 0.6909090909090909,
+    "recall": 0.867579908675799,
+    "f1": 0.7692307692307693,
+    "pr_auc": 0.848022245701281,
+    "threshold": 0.11367635569886725,
+    "recall_at_fpr_0.001": 0.410958904109589,
+    "recall_at_fpr_0.005": 0.5251141552511416,
+    "recall_at_fpr_0.01": 0.5525114155251142,
+    "recall_at_fpr_0.02": 0.6301369863013698
+  }
+}
